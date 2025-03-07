@@ -69,6 +69,85 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-HTML-Row-Span" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/03/07/HTML-Row-Span/" class="article-date">
+  <time class="dt-published" datetime="2025-03-07T14:19:34.000Z" itemprop="datePublished">2025-03-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/03/07/HTML-Row-Span/">HTML Table Row Span</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+		}
+</style>
+
+<h2>HTML Table Row Span</h2>
+	<table>
+			<tr>
+				<th rowspan="3">Sara</th>
+				<th>Front End</th>
+				<th>Back End</th>
+			</tr>
+			<tr>
+				<td>HTML</td>
+				<td>PHP</td>
+			</tr>
+			<tr>
+				<td>CSS</td>
+				<td>Dart</td>
+			</tr>
+	</table>
+	<hr>
+
+<table>
+			<tr>
+				<th rowspan="3">Sara</th>
+				<th>Front End</th>
+				<th>Back End</th>
+			</tr>
+			<tr>
+				<td>HTML</td>
+				<td rowspan="2">PHP</td>
+			</tr>
+			<tr>
+				<td>CSS</td>
+			</tr>
+</table>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/03/07/HTML-Row-Span/" data-id="cm7yv5cv90000visib28tgts6" data-title="HTML Table Row Span" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/" rel="tag">web</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-HTML-Table-Column-Span" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/03/06/HTML-Table-Column-Span/" class="article-date">
@@ -92,7 +171,85 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>Column Span (colspan) : Column Sapn merge two or more columns</p>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&lt;!<span class="variable constant_">DOCTYPE</span> html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">	&lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</span><br><span class="line">	&lt;title&gt;html table column span&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;h2&gt;Html Table Column Span&lt;/h2&gt;</span><br><span class="line">	&lt;table&gt;</span><br><span class="line">		&lt;thead&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;th&gt;Front End&lt;/th&gt;</span><br><span class="line">				&lt;th&gt;&lt;/th&gt;</span><br><span class="line">				&lt;th&gt;Back End&lt;/th&gt;</span><br><span class="line">				&lt;th&gt;&lt;/th&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/thead&gt;</span><br><span class="line">		&lt;tbody&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;HTML&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;CSS&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;PHP&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Java&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;JavaScript&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Bootstrap&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Dart&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Python&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/tbody&gt;</span><br><span class="line">	&lt;/table&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+			text-align: center;
+		}
+</style>
+
+<h2>Html Table Column Span</h2>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2">Front End</th>
+				<th colspan="2">Back End</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>HTML</td>
+				<td>CSS</td>
+				<td>PHP</td>
+				<td>Java</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>Bootstrap</td>
+				<td>Dart</td>
+				<td>Python</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<table>
+		<thead>
+			<th colspan="4">Webdevelopment</th>
+			<tr>
+				<th colspan="2">Front End</th>
+				<th colspan="2">Back End</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>HTML</td>
+				<td>CSS</td>
+				<td>PHP</td>
+				<td>Java</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>Bootstrap</td>
+				<td>Dart</td>
+				<td>Python</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<table>
+		<!-- <thead>
+			<tr>
+				<th colspan="2">Front End</th>
+				<th colspan="2">Back End</th>
+			</tr>
+		</thead> -->
+		<tbody>
+			<tr>
+				<td colspan="2">HTML</td>
+				<td>PHP</td>
+				<td>Java</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>Bootstrap</td>
+				<td colspan="2">Python</td>
+			</tr>
+		</tbody>
+</table>
+
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// &lt;!DOCTYPE html&gt;</span></span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">	&lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</span><br><span class="line">	&lt;title&gt;html table column span&lt;/title&gt;</span><br><span class="line">	&lt;style&gt;</span><br><span class="line">		table, th, td &#123;</span><br><span class="line">			border: 1px solid black;</span><br><span class="line">			border-collapse: collapse;</span><br><span class="line">			padding: 10px;</span><br><span class="line">		&#125;</span><br><span class="line">	&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;h2&gt;Html Table Column Span&lt;/h2&gt;</span><br><span class="line">	&lt;table&gt;</span><br><span class="line">		&lt;thead&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;th colspan=&quot;2&quot;&gt;Front End&lt;/th&gt;</span><br><span class="line">				&lt;th colspan=&quot;2&quot;&gt;Back End&lt;/th&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/thead&gt;</span><br><span class="line">		&lt;tbody&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;HTML&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;CSS&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;PHP&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Java&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;JavaScript&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Bootstrap&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Dart&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Python&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/tbody&gt;</span><br><span class="line">	&lt;/table&gt;</span><br><span class="line">	&lt;hr&gt;</span><br><span class="line">	&lt;table&gt;</span><br><span class="line">		&lt;thead&gt;</span><br><span class="line">			&lt;th colspan=&quot;4&quot;&gt;Webdevelopment&lt;/th&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;th colspan=&quot;2&quot;&gt;Front End&lt;/th&gt;</span><br><span class="line">				&lt;th colspan=&quot;2&quot;&gt;Back End&lt;/th&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/thead&gt;</span><br><span class="line">		&lt;tbody&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;HTML&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;CSS&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;PHP&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Java&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;JavaScript&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Bootstrap&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Dart&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Python&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/tbody&gt;</span><br><span class="line">	&lt;/table&gt;</span><br><span class="line">	&lt;hr&gt;</span><br><span class="line">	&lt;table&gt;</span><br><span class="line">		&lt;!-- &lt;thead&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;th colspan=&quot;2&quot;&gt;Front End&lt;/th&gt;</span><br><span class="line">				&lt;th colspan=&quot;2&quot;&gt;Back End&lt;/th&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/thead&gt; --&gt;</span><br><span class="line">		&lt;tbody&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td colspan=&quot;2&quot;&gt;HTML&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;PHP&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Java&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">			&lt;tr&gt;</span><br><span class="line">				&lt;td&gt;JavaScript&lt;/td&gt;</span><br><span class="line">				&lt;td&gt;Bootstrap&lt;/td&gt;</span><br><span class="line">				&lt;td colspan=&quot;2&quot;&gt;Python&lt;/td&gt;</span><br><span class="line">			&lt;/tr&gt;</span><br><span class="line">		&lt;/tbody&gt;</span><br><span class="line">	&lt;/table&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
@@ -566,89 +723,6 @@ padding: 30px;
 
 
   
-    <article id="post-CSS-Properties-Values" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/02/25/CSS-Properties-Values/" class="article-date">
-  <time class="dt-published" datetime="2025-02-25T14:30:30.000Z" itemprop="datePublished">2025-02-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/02/25/CSS-Properties-Values/">CSS Properties &amp; Values</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>CSS Properties &amp; Values</p>
-<table>
-<thead>
-<tr>
-<th>Properties</th>
-<th>Values</th>
-<th>Descriptions</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>text-align</td>
-<td>left, right, center, justify</td>
-<td>Paragraph format</td>
-</tr>
-<tr>
-<td>color</td>
-<td>red, white, #ff6347, rgb(0, 0, 255)</td>
-<td>Text color</td>
-</tr>
-<tr>
-<td>font-family</td>
-<td>courier, verdana, Arial, Consolas</td>
-<td>Text font</td>
-</tr>
-<tr>
-<td>font-size</td>
-<td>20px, 50px</td>
-<td>Text size</td>
-</tr>
-<tr>
-<td>background-color</td>
-<td>Purple, orange</td>
-<td>Background color</td>
-</tr>
-<tr>
-<td>border</td>
-<td>1px solid green</td>
-<td>Border</td>
-</tr>
-</tbody></table>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">&lt;!<span class="variable constant_">DOCTYPE</span> html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">	&lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</span><br><span class="line">	&lt;title&gt;HTML &amp; CSS&lt;/title&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!-- &lt;link rel=&quot;stylesheet&quot;  href=&quot;lesson-6.css&quot;&gt; --&gt;</span><br><span class="line">	&lt;style&gt;</span><br><span class="line">		h2 &#123;</span><br><span class="line">			color: darkred;</span><br><span class="line">			text-align: center;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		p &#123;</span><br><span class="line">			color: blue; </span><br><span class="line">			text-align: justify;</span><br><span class="line">			font-family: courier;</span><br><span class="line">			font-size: 20px;</span><br><span class="line">			background-color: yellow;</span><br><span class="line">			border: 1px solid green;</span><br><span class="line">		&#125;</span><br><span class="line">	&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;h2&gt;HTML &amp; CSS&lt;/h2&gt;</span><br><span class="line">	&lt;p&gt;</span><br><span class="line">		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span><br><span class="line">		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><br><span class="line">		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><br><span class="line">		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><br><span class="line">		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><br><span class="line">		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br><span class="line">	&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-
-<p>![image.png]</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2025/02/25/CSS-Properties-Values/" data-id="cm7kl8udw0000r3q80mfo5j0q" data-title="CSS Properties &amp; Values" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/" rel="tag">css</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/" rel="tag">web</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
   <nav id="page-nav">
@@ -699,6 +773,10 @@ padding: 30px;
       <ul>
         
           <li>
+            <a href="/2025/03/07/HTML-Row-Span/">HTML Table Row Span</a>
+          </li>
+        
+          <li>
             <a href="/2025/03/06/HTML-Table-Column-Span/">HTML Table Column Span</a>
           </li>
         
@@ -712,10 +790,6 @@ padding: 30px;
         
           <li>
             <a href="/2025/03/03/HTML-Iframe-Lesson/">HTML Iframe Lesson</a>
-          </li>
-        
-          <li>
-            <a href="/2025/03/02/HTML-Hyper-Link-2/">HTML Hyper Link -2</a>
           </li>
         
       </ul>
